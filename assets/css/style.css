@@ -41,7 +41,7 @@ header{
 }
 
 .header-content h2 {
-    font-size: 4vim;
+    font-size: 4vmin;
     margin-bottom: 15px;
 }
 
@@ -133,6 +133,16 @@ ul{
             justify-content: flex-start;    
         }
        
+        /*contact us*/
+
+        #header {
+            display: none;
+        }
+        
+        body.no-header-image header {
+            display: block;
+        }
+        
           
         
     
