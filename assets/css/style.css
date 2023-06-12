@@ -1,31 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-body{
+body {
     font-family: Merriweather, sans-serif;
 }
+
 /* Header */
 
 
-header{
+header {
 
     width: 100vw;
     height: 100vh;
-    background-image: url(../images/img1.jpg);
     background-size: cover;
-    background-position: bottom ;
+    background-position: bottom;
     display: flex;
     align-items: stretch;
     justify-content: center;
+}
+
+.header-hero {
+    background-image: url(../images/img1.jpg);
 }
 
 .header-content {
@@ -56,97 +60,89 @@ header{
 
 /* Navigation */
 
-ul{
+ul {
     list-style: none;
 }
 
-    .navbar {
-        position: absolute;
-        width: 100%;
-        top:0;
-        left: 0;
-        display: flex;
-        justify-content:center ;
-        color: whitesmoke;
-        padding: 20px;
-    }
-    .menu{
-        display: flex;
-        align-items: center;
-    }
-    .menu li{
-        margin: 0 30px;
-    
-    }
+.navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    padding: 20px;
+}
 
-    /* Mobile*/
-    @media only screen and (max-width:850px) {
-        
-    }
+.menu {
+    display: flex;
+    align-items: center;
+}
 
-    /* Footer */
-    footer {
-        height: 150px;
-    }
-    
-    .social-networks {
-        text-align: center;
-    }
-    
-    .social-networks > li {
-        display: inline;
-    }
-    
-    .social-networks i {
-        font-size: 160%;
-        margin: 1%;
-        padding: 5%;
-        color: RGB(120, 81, 169);
-    }
+.menu li {
+    margin: 0 30px;
 
-    /*about us*/
-    
-    
+}
+
+/* Footer */
+footer {
+    height: 150px;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: RGB(120, 81, 169);
+}
+
+/*about us*/
 
 
-    .about-text {
-        font-size: 7vmin;
-        margin-bottom: 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: flex-start;
-      }
-
-    .about-us div{
-            color: #fafafa;
-            background-color: rgba(0, 0, 0, .6);
-            width: 20%;
-            height: 300px;
-            float: left;
-            padding: 30px 0 0 10px;
-            text-align: center;
-            border: 2px solid white;
-            box-sizing: border-box;
-            margin-top: 120px;
-            align-items: center;
-            justify-content: flex-start;    
-        }
-       
-        /*contact us*/
-
-        #header {
-            display: none;
-        }
-        
-        body.no-header-image header {
-            display: block;
-        }
-        
-          
-        
-    
 
 
-    
-   
+.about-text {
+    font-size: 7vmin;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.about-us div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+    margin-top: 120px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/*contact us*/
+
+#header {
+    display: none;
+}
+
+body.no-header-image header {
+    display: block;
+}
+
+/* Mobile*/
+@media only screen and (max-width:850px) {}
