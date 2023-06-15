@@ -1,39 +1,152 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Logo](/assets/images/logo.png)
+# Target Fitness
 
-Welcome,
+Our website offers a unique fitness experience with a wide range of services. Our users can access online training classes, allowing them to exercise conveniently from any location. The website also provides personalized training programs guided by experinced and certified trainers, ensuring tailored workouts aligned with individual goals. Additionally, users can utilize fitness tracking features through a mobile app, enabling them to monitor and analyze their physical activity, including steps taken, calories burned, and heart rate.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The site can be accessed by this link: https://kubecks.github.io/target-fitness/index.html
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+![mockup](/assets/images/Mock-up.png)
 
-## Codeanywhere Reminders
+## User Stories
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### First-Time Visitor Goals:
 
-`python3 -m http.server`
+* Easily understand the main purpose of the site, enabling visitors to learn more about the organization.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* Navigate through the website effortlessly, ensuring easy access to the desired content.
+V
+* View testimonials to establish trustworthiness and credibility of the organization.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Returning Visitor Goals:
 
-`http_server`
+* Explore various pets available for adoption, facilitating the process of choosing a pet.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Access detailed information about animals, enabling visitors to learn about each animal and make informed decisions.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* Find a convenient method to contact the organization, allowing for additional inquiries or requests regarding a specific animal.
+Discover community links to gain further insights into the organization.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Frequent Visitor Goals:
 
-To log into the Heroku toolbelt CLI:
+* Stay updated on any changes in the availability of animals, aiding in the decision-making process for pet adoption.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Have multiple options for contacting the company, ensuring prompt and accurate responses to email queries or concerns.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+* Easily access a calendar or schedule of upcoming events or adoption drives, allowing frequent visitors to plan their visits or participation in relevant activities.
 
----
+## Features
 
-Happy coding!
+### Navbar
+
+#### Navigation
+
+* Positioned at the top of the page.
+
+* Contains central company logo.
+
+* Contains navigation links also in the center above logo:
+
+- HOME - leads to the home page where users can learn about the company Animal Shelter.
+- Client-Cam - leads to the images page where current users can be seen working out.
+- CONTACT - leads to the contact form page where users can fill out the form in order to get in touch with the company.
+
+* The navigation is clear and easy to understand for the user. NavBar desktop
+
+![navbar](/assets/images/navbar.png)
+
+
+Home Page
+
+Represent:
+
+the main idea of the company.
+Emphasize the strong points of the company.
+Shows feedback from satisfied clients.
+Invites to fill out the contact form.
+Home Page
+
+Hero Section
+
+Hero section have a fixed background image.
+
+Hero section have the block section below the image that consist:
+
+The name of the company.
+Short description of the company's philosophy.
+Contact button that leads directly to the contact page.
+Hero Section
+
+Highlights Section
+
+Highlight Section has 4 cards with strong descriptive characteristics of the company.
+
+Tells website visitors how well animals are in the Animal Shelter.
+
+Attracts viewers to use this company for animal adoption.
+
+Highlights Section
+
+Testimonials Section
+
+Testimonials Section has three feedbacks from people who were satisfied with the company's service.
+
+Each card has a picture of an animal with its owner.
+
+Each card has a story from the people who had an experience of using the Animal Shelter.
+
+Each card has a name of the pet's owner.
+
+​ Testimonials Section
+
+Call to Action Section
+
+Call to Action Section has an explicit message for the visitors of the website to contact the company.
+
+Is also has a button that directs to the contact page. ​ Call to Action Section
+
+Footer
+
+Footer contains social media links that open in a new tab. ​ Footer ​
+Gallery Page
+
+Gallery page has a hero image and an introduction message for the visitors that contains an incentive to contact the company.
+
+It has a button right after the introduction message that leads to the contact form page.
+
+It has photos of the animals that a present in the Animal Shelter in real-time.
+
+The gallery is responsive: the size of the photo depends on the user's screen.
+Each image has a description of the animal that appears on hover.
+description information contains the name of the animal and its characteristics.
+It has a call to action section below the gallery with the incentivizing message and the button that leads to the contact form.
+
+It has a footer identical to the home page's footer.
+
+​ Tour page
+
+Contact page
+
+Contact page has a contact form:
+
+All text input fields are customized.
+
+Labels are animated when the input field is in focus and are not empty.
+
+All inputs are set to be required to fill out.
+
+It has to checkboxes for the visitors to fill voluntary:
+
+The 1st is - ADAPT, which helps the company to understand the motive of the visitor.
+The 2nd is - DONATE, which motivates users to consider financial support for the company.
+The submit button is animated on hover.
+
+The page is responsive on all common screen sizes.
+
+The submit button leads to the response page. ​ Contact page
+
+Response page
+
+Response page appears after submitting the contact form.
+It contains the thank you message and the promise to get in touch with the applicant within 24 hours.
+It will automatically direct the user to the main page in 10 seconds.
+Response page
