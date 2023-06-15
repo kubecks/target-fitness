@@ -55,98 +55,105 @@ Discover community links to gain further insights into the organization.
 ![navbar](/assets/images/navbar.png)
 
 
-Home Page
+### Home Page
 
-Represent:
 
-the main idea of the company.
-Emphasize the strong points of the company.
-Shows feedback from satisfied clients.
-Invites to fill out the contact form.
-Home Page
+* Eye-catching background image which draw users to engage further with the sleek home page.
+* Emphasize the strong points of the company.
+* Shows feedback from satisfied clients.
+* Invites to fill out the contact form.
 
-Hero Section
+![home-page](/assets/images/home-page.png)
+![home-page](/assets/images/home-page2.png)
 
-Hero section have a fixed background image.
+### Footer
 
-Hero section have the block section below the image that consist:
 
-The name of the company.
-Short description of the company's philosophy.
-Contact button that leads directly to the contact page.
-Hero Section
+* Footer contains social media links that all open in a new tab. 
 
-Highlights Section
+![home-page](/assets/images/footer.png)
 
-Highlight Section has 4 cards with strong descriptive characteristics of the company.
+### Client-Cam
 
-Tells website visitors how well animals are in the Animal Shelter.
+* Client-cam is a minimal page only has navbar, social links at footer and compilation of images of our users working out.
 
-Attracts viewers to use this company for animal adoption.
+![client-cam](/assets/images/client-cam.png)
 
-Highlights Section
-
-Testimonials Section
-
-Testimonials Section has three feedbacks from people who were satisfied with the company's service.
-
-Each card has a picture of an animal with its owner.
-
-Each card has a story from the people who had an experience of using the Animal Shelter.
-
-Each card has a name of the pet's owner.
-
-​ Testimonials Section
-
-Call to Action Section
-
-Call to Action Section has an explicit message for the visitors of the website to contact the company.
-
-Is also has a button that directs to the contact page. ​ Call to Action Section
-
-Footer
-
-Footer contains social media links that open in a new tab. ​ Footer ​
-Gallery Page
-
-Gallery page has a hero image and an introduction message for the visitors that contains an incentive to contact the company.
-
-It has a button right after the introduction message that leads to the contact form page.
-
-It has photos of the animals that a present in the Animal Shelter in real-time.
-
-The gallery is responsive: the size of the photo depends on the user's screen.
-Each image has a description of the animal that appears on hover.
-description information contains the name of the animal and its characteristics.
-It has a call to action section below the gallery with the incentivizing message and the button that leads to the contact form.
-
-It has a footer identical to the home page's footer.
-
-​ Tour page
-
-Contact page
-
-Contact page has a contact form:
-
-All text input fields are customized.
-
-Labels are animated when the input field is in focus and are not empty.
-
-All inputs are set to be required to fill out.
-
-It has to checkboxes for the visitors to fill voluntary:
-
-The 1st is - ADAPT, which helps the company to understand the motive of the visitor.
-The 2nd is - DONATE, which motivates users to consider financial support for the company.
-The submit button is animated on hover.
+### Contact page
 
 The page is responsive on all common screen sizes.
 
-The submit button leads to the response page. ​ Contact page
+* Has a contact form, customized input fields and all inputs must be filled out prior to submision
 
-Response page
+- Layout
 
-Response page appears after submitting the contact form.
-It contains the thank you message and the promise to get in touch with the applicant within 24 hours.
-It will automatically direct the user to the main page in 10 seconds.
-Response page
+  - The 1st is - First Name , which helps the company to know the users first name.
+  - The 2nd is - Last Name, helps the company to know the users last name.
+  - The 3rd is - Email Address, so that the company can respond back.
+  - The 4th is - Message, where user writes their query
+  - The submit button 
+
+  ![contact](/assets/images/contact.png)
+
+## Technologies Used
+
+* HTML was used as the foundation of the site.
+* CSS - was used to add the styles and layout of the site.
+* CSS Flexbox - was used to arrange items simmetrically on the pages.
+* VSCode was used as the main tool to write and edit code.
+* Git was used for the version control of the website.
+* GitHub was used to host the code of the website.
+
+## Wireframes
+
+![wireframe](/assets/images/wire.png)
+
+## Testing
+
+### Manuel Testing
+
+- All Features work how they were intented to.
+- Nav bar links all re-direct to their assigned pages
+- social media links at the footer all redirect to their websites in a different tab
+
+### Accessibility and performance
+
+* Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+
+![performance](/assets/images/performance.png)
+
+## Bugs
+
+Unsolved bugs
+
+After deploying website it became disfigured, with images not showing
+
+Mistakes
+
+Need to improve color contrasting for a better UX
+Mistakes were made while committing changes. I used past simple tense in commits due to the habit when I just started working on this project.
+Also forgot to git add at times leaving a lot of time between updating changes
+
+## Credit
+
+- Online workout:
+  Photo by Karolina Grabowska: https://www.pexels.com/photo/crop-woman-with-laptop-and-dumbbell-on-sports-mat-4498362/
+
+- Fitness Tracking:
+  Photo by ThisIsEngineering: https://www.pexels.com/photo/person-holding-black-tablet-3912956/
+
+- Personal Trainer:
+  hoto by Bruno Bueno from Pexels: https://www.pexels.com/photo/man-lying-while-doing-barbell-2204196/
+
+- Client-Cam
+  Pic1: Photo by Sabel Blanco: https://www.pexels.com/photo/photo-woman-bodybuilder-using-cable-and-pulley-machine-while-facing-mirror-1480520/
+
+- Pic2: Photo by Allan Mas: https://www.pexels.com/photo/faceless-woman-in-bay-climbing-wall-in-bouldering-studio-5383520/
+
+- Pic3: Photo by Leon Ardho: https://www.pexels.com/photo/photo-of-man-jumping-on-box-1552248/
+
+- Pic4: Photo by Jonathan Borba: https://www.pexels.com/photo/man-running-on-a-treadmill-13896072/
+
+- Pic5: Photo by ShotPot: https://www.pexels.com/photo/photo-of-man-in-red-shirt-4047039/
+
+- Pic6: Photo by Ketut Subiyanto: https://www.pexels.com/photo/photo-of-man-doing-push-ups-using-yellow-kettlebell-4720268/
