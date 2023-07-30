@@ -1,3 +1,4 @@
+/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto&display=swap');
 
 /* Reset and Global Styles */
@@ -82,6 +83,8 @@ ul {
 /* Footer */
 footer {
     height: 150px;
+    text-align: center;
+    background-color: #f2f2f2;
 }
 
 .social-networks {
@@ -165,31 +168,25 @@ footer {
     font-size: 14px;
 }
 
-
-/* Contact Us */
-.contact-header {
-    background-color: black;
-}
-
+/* Contact Page */
 .wrapper {
-    width: 800px;
-    margin: 25% auto;
+    width: 80%;
+    max-width: 800px;
+    margin: 150px auto; /* Center the content horizontally and add space from top and bottom */
+    padding: 50px;
 }
 
 .form-area {
     display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
     background: whitesmoke;
     border-radius: 25px;
-    padding: 1.9em;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .msg-area {
-    display: flex;
-    flex-direction: column;
-    order: 2;
-}
-
-.msg-area > textarea {
     flex: 1;
     min-width: 18em;
     padding: 15px;
@@ -197,7 +194,7 @@ footer {
 
 .details-area {
     flex: 1;
-    order: 1;
+    min-width: 18em;
     margin-right: 2em;
 }
 
@@ -205,12 +202,15 @@ footer {
     width: 100%;
     background: transparent;
     border-radius: 40px;
+    border: 2px solid #ccc;
+    padding: 1em;
+    font-size: 16px;
+    color: #555;
 }
 
-.details-area input,
-.details-area button {
-    padding: 1em;
-    margin-bottom: 1em;
+.details-area input:focus {
+    outline: none;
+    border-color: RGB(120, 81, 169);
 }
 
 .details-area button {
@@ -221,11 +221,20 @@ footer {
     font-size: 16px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.details-area button:hover {
+    background: #9756b3;
 }
 
 label {
     text-transform: uppercase;
     line-height: 40px;
+    font-size: 16px;
+    color: RGB(120, 81, 169);
 }
 
 /* Client-Cam */
