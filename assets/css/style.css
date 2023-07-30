@@ -100,7 +100,6 @@ footer {
 }
 
 /* About Us */
-
 .about-title {
     text-align: center;
     font-size: 4vmin;
@@ -109,21 +108,18 @@ footer {
     margin-top: 30px;
 }
 
-.about-us {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Center the boxes horizontally */
+/* About Us Section */
+.about-section {
+    text-align: center;
     margin-top: 50px;
 }
 
-.box {
-    width: 280px;
-    margin: 20px;
-    box-shadow: 0 0 10px rgba(120, 81, 169, 0.2);
-    border-radius: 8px;
-    background-color: #eee;
-    box-sizing: border-box;
-    overflow: hidden;
+.about-text {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #333;
 }
 
 /* Services */
