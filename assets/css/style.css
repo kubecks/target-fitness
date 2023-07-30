@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto&display=swap');
 
+/* Reset and Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -15,10 +16,7 @@ body {
 }
 
 /* Header */
-
-
 header {
-
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -56,10 +54,7 @@ header {
     color: whitesmoke;
 }
 
-
 /* Navigation */
-
-
 ul {
     list-style: none;
 }
@@ -82,7 +77,6 @@ ul {
 
 .menu li {
     margin: 0 30px;
-
 }
 
 /* Footer */
@@ -94,7 +88,7 @@ footer {
     text-align: center;
 }
 
-.social-networks>li {
+.social-networks > li {
     display: inline;
 }
 
@@ -105,8 +99,7 @@ footer {
     color: RGB(120, 81, 169);
 }
 
-/*about us*/
-
+/* About Us */
 .about-title {
     text-align: center;
     font-size: 4vmin;
@@ -115,34 +108,30 @@ footer {
     margin-top: 30px;
 }
 
-
-
 .box {
     width: 280px;
     margin: 20px;
-    box-shadow: (120, 81, 169, 0.2);
+    box-shadow: 0 0 10px rgba(120, 81, 169, 0.2);
     border-radius: 8px;
     background-color: #eee;
     box-sizing: border-box;
     overflow: hidden;
 }
 
-.about-us{
+.about-us {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin-top: 50px;
-    
 }
 
-/* Contact Us*/
-
+/* Contact Us */
 .contact-header {
     background-color: black;
 }
 
-.wrapper{
+.wrapper {
     width: 800px;
     margin: 25% auto;
 }
@@ -154,7 +143,7 @@ footer {
     padding: 1.9em;
 }
 
-.msg-area{
+.msg-area {
     display: flex;
     flex-direction: column;
     order: 2;
@@ -172,7 +161,7 @@ footer {
     margin-right: 2em;
 }
 
-.details-area input{
+.details-area input {
     width: 100%;
     background: transparent;
     border-radius: 40px;
@@ -194,34 +183,34 @@ footer {
     text-transform: uppercase;
 }
 
-label{
+label {
     text-transform: uppercase;
     line-height: 40px;
 }
 
 /* Client-Cam */
-.client-header{
+.client-header {
     background-color: whitesmoke;
 }
 
 .photos {
     margin-top: 60px;
-    
     align-items: center;
     padding: 50px;
 }
-/* Mobile*/
-@media only screen and (max-width:850px) {
-    .navbar{
+
+/* Mobile */
+@media only screen and (max-width: 850px) {
+    .navbar {
         padding: 0;
     }
-    .header-content{
+    .header-content {
         position: absolute;
         top: 30px;
         left: 30px;
     }
 
-    .menu{
+    .menu {
         flex-direction: column;
         width: 100%;
         height: 100vh;
