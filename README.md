@@ -135,7 +135,14 @@ Mistakes were made while committing changes. I used past simple tense in commits
 Also forgot to git add at times leaving a lot of time between updating changes
 
 ## Credit
-
+- Nutrtion Couselling
+  Photo by Ella Olsson: https://www.pexels.com/photo/flat-lay-photography-of-vegetable-salad-on-plate-1640777/
+- Personal Training
+  Photo by Bruno Bueno: https://www.pexels.com/photo/man-lying-while-doing-barbell-2204196/
+- Group Fitness Classes
+  Photo by Gustavo Fring: https://www.pexels.com/photo/cheerful-group-of-pregnant-women-practicing-yoga-in-modern-studio-3984367/
+- Workout Program
+  Photo by Mikhail Nilov: https://www.pexels.com/photo/two-men-looking-at-a-workout-schedule-on-a-whiteboard-6740171/
 - Online workout:
   Photo by Karolina Grabowska: https://www.pexels.com/photo/crop-woman-with-laptop-and-dumbbell-on-sports-mat-4498362/
 
