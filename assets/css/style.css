@@ -48,13 +48,6 @@ header {
     margin-bottom: 15px;
 }
 
-.ctn {
-    padding: 8px 15px;
-    background: RGB(120, 81, 169);
-    border-radius: 30px;
-    color: whitesmoke;
-}
-
 /* Navigation */
 ul {
     list-style: none;
@@ -69,6 +62,7 @@ ul {
     justify-content: center;
     color: whitesmoke;
     padding: 20px;
+    background-color: RGB(120, 81, 169);
 }
 
 .menu {
@@ -80,34 +74,29 @@ ul {
     margin: 0 30px;
 }
 
+/* Style the navbar links */
+.menu li a {
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    background-color: RGB(120, 81, 169); /* Set the background color */
+    transition: background-color 0.3s ease-in-out;
+}
+
+/* Change link color on hover */
+.menu li a:hover {
+    background-color: #9756b3;
+}
+
 /* Main*/
-main{
+main {
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center:
-}
-/* Footer */
-footer {
-    height: 150px;
-    text-align: center;
-    background-color: #f2f2f2;
-}
-
-.social-networks {
-    text-align: center;
-}
-
-.social-networks > li {
-    display: inline;
-}
-
-.social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: RGB(120, 81, 169);
+    align-items: center;
 }
 
 /* About Us */
@@ -177,27 +166,27 @@ footer {
 }
 
 /* Contact Page */
+.contact-header {
+    background-color: whitesmoke;
+    height: auto;
+    padding-top: 80px;
+}
+
 .wrapper {
     width: 80%;
     max-width: 800px;
-    margin: 150px auto; /* Center the content horizontally and add space from top and bottom */
+    margin: auto;
     padding: 50px;
 }
 
 .form-area {
     display: flex;
-    flex-wrap: wrap; 
-    justify-content: center; 
+    flex-wrap: wrap;
+    justify-content: center;
     background: whitesmoke;
     border-radius: 25px;
     padding: 2em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.msg-area {
-    flex: 1;
-    min-width: 18em;
-    padding: 15px;
 }
 
 .details-area {
@@ -216,9 +205,15 @@ footer {
     color: #555;
 }
 
-.details-area input:focus {
-    outline: none;
-    border-color: RGB(120, 81, 169);
+.details-area textarea {
+    width: 100%;
+    background: transparent;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    padding: 1em;
+    font-size: 16px;
+    color: #555;
+    resize: none;
 }
 
 .details-area button {
@@ -248,30 +243,144 @@ label {
 /* Client-Cam */
 .client-header {
     background-color: whitesmoke;
+    height: auto;
+    padding-top: 80px;
+}
+
+.client-content {
+    color: RGB(120, 81, 169);
+    text-align: center;
+    padding: 30px 0;
 }
 
 .photos {
-    margin-top: 60px;
-    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
     padding: 50px;
 }
 
+/* Footer */
+footer {
+    height: 150px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: RGB(120, 81, 169);
+}
+
+
 /* Mobile */
 @media only screen and (max-width: 850px) {
+        /* Header */
+        .header-content h1 {
+            font-size: 10vmin; /* Adjusted to prevent overlapping */
+            margin-top: 40px; /* Adjusted to prevent overlapping */
+        }
+    
+        .header-content h2 {
+            font-size: 6vmin; /* Adjusted to prevent overlapping */
+            margin-bottom: 10px; /* Adjusted to prevent overlapping */
+        }
+
+    /* Navigation */
     .navbar {
+        flex-direction: column;
+        align-items: center;
+        background-color: RGB(120, 81, 169);
         padding: 0;
     }
-    .header-content {
-        position: absolute;
-        top: 30px;
-        left: 30px;
+
+    * {
+        margin: auto;
+        padding: 0;
+        box-sizing: border-box;
     }
 
     .menu {
+        display: flex;
         flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        justify-content: center;
-        margin: 30px auto;
+        align-items: center;
+    }
+
+    .menu li {
+        margin: 10px 0;
+    }
+
+    .menu li a {
+        font-size: 5vmin;
+        padding: 5px 15px;
+        border-radius: 10px;
+        background-color: transparent;
+    }
+
+    /* Change link color on hover */
+    .menu li a:hover {
+        background-color: #9756b3;
+    }
+
+    /* About Us Section */
+    .about-text {
+        font-size: 4vmin;
+        line-height: 1.5;
+    }
+
+    /* Services Section */
+    .services {
+        flex-direction: column;
+    }
+
+    .service {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        box-shadow: 0 0 10px rgba(120, 81, 169, 0.2);
+    }
+
+    /* Contact Page */
+    .form-area {
+        margin-top: 135px;
+        padding: 1em;
+    }
+
+    .details-area input,
+    .details-area textarea {
+        font-size: 4vmin;
+    }
+
+    .details-area button {
+        padding: 8px 30px;
+        font-size: 4vmin;
+    }
+
+    label {
+        line-height: 30px;
+    }
+
+    /* Client-Cam */
+    .photos {
+        padding: 10px;
+        margin-top: 135px;
+    }
+
+    /* Footer */
+    .social-networks i {
+        font-size: 6vmin;
+        margin: 5px;
+        padding: 10px;
     }
 }

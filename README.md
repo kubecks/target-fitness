@@ -164,3 +164,5 @@ Also forgot to git add at times leaving a lot of time between updating changes
 - Pic5: Photo by ShotPot: https://www.pexels.com/photo/photo-of-man-in-red-shirt-4047039/
 
 - Pic6: Photo by Ketut Subiyanto: https://www.pexels.com/photo/photo-of-man-doing-push-ups-using-yellow-kettlebell-4720268/
+
+- Pic7: Photo by The Lazy Artist Gallery: https://www.pexels.com/photo/woman-doing-exercise-inside-gym-2247179/

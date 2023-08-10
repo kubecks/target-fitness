@@ -18,43 +18,42 @@
     <header class="contact-header">
         <nav class="navbar">
             <ul class="menu">
-                <li class="ctn">
+                <li>
                     <a href="index.html">Home</a>
                 </li>
-                <li class="ctn">
+                <li>
                     <a href="client-cam.html">Client-Cam</a>
                 </li>
+                <li>
                     <a href="contact.html">Contact</a>
                 </li>
             </ul>
         </nav>
-    
-        
-    <section>
-        <div class="wrapper">
-            <form action="" class="form-area">
-               <div class="msg-area">
-                <label for="msg">Message</label>
-                <textarea id="msg"></textarea>
-               </div>
-               <div class="details-area">
-                <label for="name">First Name</label>
-                <input type="text" name="" id="name">
-
-                <label for="1name">Last Name</label>
-                <input type="text" name="" id="1name">
-            
-                <label for="name">Email Address</label>
-                <input type="email" name="" id="email">
-
-                <button>Submit</button>
-               </div>
-            </form>
-
-        </div>
-    </section>
-
     </header>
+    
+    <main>
+        <section>
+            <div class="wrapper">
+                <form id="contact-form" class="form-area">
+                    <div class="details-area">
+                        <label for="firstname">First Name</label>
+                        <input type="text" name="first_name" id="firstname" required>
+
+                        <label for="lastname">Last Name</label>
+                        <input type="text" name="last_name" id="lastname" required>
+
+                        <label for="email">Email Address</label>
+                        <input type="email" name="email" id="email" required>
+
+                        <label for="msg">Message</label>
+                        <textarea id="msg" name="message" rows="5" placeholder="Enter your message here..." required></textarea>
+
+                        <button type="submit" id="submitBtn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
  
     <footer>
         <ul class="social-networks">
