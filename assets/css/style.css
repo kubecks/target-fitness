@@ -240,6 +240,31 @@ label {
     color: RGB(120, 81, 169);
 }
 
+.thank-you-message {
+    display: none; /* Initially hidden */
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #754c8d; /* Border color */
+}
+
+/* Style for the thank you message content */
+.thank-you-message p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+/* Style for the thank you message section when targeted */
+.thank-you-message:target {
+    display: block; /* Display the thank you message when targeted */
+}
+
+
+
 /* Client-Cam */
 .client-header {
     background-color: whitesmoke;
