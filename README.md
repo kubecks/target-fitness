@@ -1,11 +1,11 @@
 ![Logo](/assets/images/logo.png)
 # Target Fitness
 
-Our website offers a unique fitness experience with a wide range of services. Our users can access online training classes, allowing them to exercise conveniently from any location. The website also provides personalized training programs guided by experinced and certified trainers, ensuring tailored workouts aligned with individual goals. Additionally, users can utilize fitness tracking features through a mobile app, enabling them to monitor and analyze their physical activity, including steps taken, calories burned, and heart rate.
+Our website offers a unique fitness experience with a wide range of services. Our users can access online training classes, allowing them to exercise conveniently from any location. The website also provides personalized training programs guided by experienced and certified trainers, ensuring tailored workouts aligned with individual goals. Additionally, users can utilize fitness tracking features through a mobile app, enabling them to monitor and analyze their physical activity, including steps taken, calories burned, and heart rate.
 
-The site can be accessed by this link: https://kubecks.github.io/target-fitness/index.html
+The site can be accessed by this [link](https://kubecks.github.io/target-fitness/index.html)
 
-![mockup](/assets/images/Mock-up.png)
+![mockup](/assets/images/mockup.png)
 
 ## User Stories
 
@@ -14,7 +14,7 @@ The site can be accessed by this link: https://kubecks.github.io/target-fitness/
 * Easily understand the main purpose of the site, enabling visitors to learn more about the organization.
 
 * Navigate through the website effortlessly, ensuring easy access to the desired content.
-V
+
 * View testimonials to establish trustworthiness and credibility of the organization.
 
 ### Returning Visitor Goals:
@@ -42,32 +42,29 @@ Discover community links to gain further insights into the organization.
 
 * Positioned at the top of the page.
 
-* Contains central company logo.
-
 * Contains navigation links also in the center above logo:
 
 - HOME - leads to the home page where users can learn about the company Animal Shelter.
-- Client-Cam - leads to the images page where current users can be seen working out.
+- CLIENT-CAM - leads to the images page where current users can be seen working out.
 - CONTACT - leads to the contact form page where users can fill out the form in order to get in touch with the company.
 
 * The navigation is clear and easy to understand for the user. NavBar desktop
 
-![navbar](/assets/images/navbar.png)
+![navbar](/assets/images/Screenshot%202023-09-07%20at%2006.18.56.png)
 
 
 ### Home Page
 
-
-* Eye-catching background image which draw users to engage further with the sleek home page.
+* Eye-catching background image which draws users to engage further with the sleek home page.
 * Emphasize the strong points of the company.
 * Shows feedback from satisfied clients.
 * Invites to fill out the contact form.
 
-![home-page](/assets/images/home-page.png)
 ![home-page](/assets/images/home-page2.png)
+![home-page](/assets/images/services.png)
+![home-page](/assets/images/about.png)
 
 ### Footer
-
 
 * Footer contains social media links that all open in a new tab. 
 
@@ -75,31 +72,36 @@ Discover community links to gain further insights into the organization.
 
 ### Client-Cam
 
-* Client-cam is a minimal page only has navbar, social links at footer and compilation of images of our users working out.
+* Client-cam is a minimal page only has navbar, social links at footer, and a compilation of images of our users working out.
 
-![client-cam](/assets/images/client-cam.png)
+![client-cam](/assets/images/clientcam.png)
 
 ### Contact page
 
 The page is responsive on all common screen sizes.
 
-* Has a contact form, customized input fields and all inputs must be filled out prior to submision
+* Has a contact form, customized input fields, and all inputs must be filled out prior to submission
 
 - Layout
 
-  - The 1st is - First Name , which helps the company to know the users first name.
-  - The 2nd is - Last Name, helps the company to know the users last name.
-  - The 3rd is - Email Address, so that the company can respond back.
-  - The 4th is - Message, where user writes their query
-  - The submit button 
+  - The 1st is - First Name, which helps the company to know the user's first name.
+  - The 2nd is - Last Name, helps the company to know the user's last name.
+  - The 3rd is - Email Address so that the company can respond back.
+  - The 4th is - Message, where the user writes their query
+  - The 5th and last feature is the submit button, where the user submits their query
 
-  ![contact](/assets/images/contact.png)
+  ![contact](/assets/images/contactnew.png)
+
+
+  ![contact2](/assets/images/contactnew2.png)
+  
+  - As demonstrated in the above images, the contact form is responsive, and a thank you message is outputted when the form is full-filled and submitted
 
 ## Technologies Used
 
 * HTML was used as the foundation of the site.
 * CSS - was used to add the styles and layout of the site.
-* CSS Flexbox - was used to arrange items simmetrically on the pages.
+* CSS Flexbox - was used to arrange items symmetrically on the pages.
 * VSCode was used as the main tool to write and edit code.
 * Git was used for the version control of the website.
 * GitHub was used to host the code of the website.
@@ -110,31 +112,83 @@ The page is responsive on all common screen sizes.
 
 ## Testing
 
-### Manuel Testing
+### Manual Testing
 
-- All Features work how they were intented to.
-- Nav bar links all re-direct to their assigned pages
+- All Features work how they were intended to.
+- Nav bar links all redirect to their assigned pages
 - social media links at the footer all redirect to their websites in a different tab
 
-### Accessibility and performance
+### Accessibility and Performance
 
-* Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+* Using Lighthouse in devtools, I confirmed that the website is performing well, accessible, and colors and fonts chosen are readable.
 
 ![performance](/assets/images/performance.png)
 
 ## Bugs
 
-Unsolved bugs
+### Bug 1: Image Disfiguration (Resolved)
 
-After deploying website it became disfigured, with images not showing
+- **Bug Description**: After deploying the website, some images were not displaying correctly, leading to a disfigured appearance of the site.
 
-Mistakes
+- **Steps to Reproduce**:
+  1. Deploy the website using the provided script.
+  2. Access the deployed site in a web browser.
+  3. Observe that images on various pages are not rendering as expected.
 
-Need to improve color contrasting for a better UX
-Mistakes were made while committing changes. I used past simple tense in commits due to the habit when I just started working on this project.
-Also forgot to git add at times leaving a lot of time between updating changes
+- **Expected Behavior**: All images should load correctly, maintaining their original aspect ratios and quality.
+
+- **Actual Behavior**: Images on the deployed site appeared distorted or were missing entirely.
+
+- **Screenshots**:
+
+    ***Before*** ![Screenshot of the disfigured images](/assets/images/bug1.png)
+
+   ***After***
+   ![resolution images](/assets/images/services.png)
+
+- **Frequency**: Consistently reproducible on all deployments.
+
+- **Resolution**: The image disfiguration issue has been resolved by updating the image optimization process and redeploying the website. All images now load correctly.
+
+- **Additional Notes**: The issue started occurring after the last deployment.
+
+### Bug 2: Improved Navbar Visibility (Resolved)
+
+**Description:** 
+The previous navbar design had low visibility due to blending with the background, making it difficult for users to navigate the website. However, after implementing
+
+**Description:** 
+The previous navbar design had low visibility due to blending with the background, making it difficult for users to navigate the website. However, after implementing an improved navbar with a background, the issue has been resolved.
+
+  ***Before***
+  ![Previous Version](/assets/images/home-page.png)
+
+  ***After***
+  ![Improved Version](/assets/images/home-page2.png)
+
+**Expected Behavior (Previous Version):**
+In the previous version, the navbar should have been designed with better visibility, ensuring that the navigation links are clearly distinguishable from the background.
+
+**Actual Behavior (Previous Version):**
+The navbar in the previous version had poor visibility, and the navigation links blended with the background, causing usability issues.
+
+**Expected Behavior (Improved Version):**
+In the improved version, the navbar should provide better visibility for users, ensuring that the navigation links are easily distinguishable.
+
+**Actual Behavior (Improved Version):**
+The improved navbar design now addresses the visibility issue by adding a distinct background, making the navigation links more visible and user-friendly.
+
 
 ## Credit
+
+-  **Video Title:** How To Make Website Using HTML And CSS |  Website Design With HTML And CSS
+
+      **Channel:** GreatStack
+
+      **Video URL:** [https://www.youtube.com/watch?v=PgAZ8KzfhO8](https://www.youtube.com/watch?v=PgAZ8KzfhO8)
+
+      **Published on:** November 9, 2020
+
 - Nutrtion Couselling
   Photo by Ella Olsson: https://www.pexels.com/photo/flat-lay-photography-of-vegetable-salad-on-plate-1640777/
 - Personal Training
