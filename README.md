@@ -192,6 +192,8 @@ The improved navbar design now addresses the visibility issue by adding a distin
       **Video URL:** [https://www.youtube.com/watch?v=PgAZ8KzfhO8](https://www.youtube.com/watch?v=PgAZ8KzfhO8)
 
       **Published on:** November 9, 2020
+- Mentor; Juliaa Konovalova
+  https://github.com/IuliiaKonovalova/animal_shelter/blob/main/README.md
 
 - Nutrtion Couselling
   Photo by Ella Olsson: https://www.pexels.com/photo/flat-lay-photography-of-vegetable-salad-on-plate-1640777/
