@@ -124,6 +124,10 @@ The page is responsive on all common screen sizes.
 
 ![performance](/assets/images/performance.png)
 
+
+### W3C CSS Validator
+
+![W3C](/assets/images/W3C.png)
 ## Bugs
 
 ### Bug 1: Image Disfiguration (Resolved)
