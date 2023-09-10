@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+
 a {
     text-decoration: none;
 }
@@ -91,7 +92,7 @@ ul {
     background-color: #9756b3;
 }
 
-/* Main*/
+/* Main */
 main {
     width: 100%;
     display: flex;
@@ -263,8 +264,6 @@ label {
     display: block; /* Display the thank you message when targeted */
 }
 
-
-
 /* Client-Cam */
 .client-header {
     background-color: whitesmoke;
@@ -308,19 +307,22 @@ footer {
     color: RGB(120, 81, 169);
 }
 
-
 /* Mobile */
 @media only screen and (max-width: 850px) {
-        /* Header */
-        .header-content h1 {
-            font-size: 10vmin; /* Adjusted to prevent overlapping */
-            margin-top: 40px; /* Adjusted to prevent overlapping */
-        }
-    
-        .header-content h2 {
-            font-size: 6vmin; /* Adjusted to prevent overlapping */
-            margin-bottom: 10px; /* Adjusted to prevent overlapping */
-        }
+    /* Header */
+    .header-content h1 {
+        font-size: 10vmin; /* Adjusted to prevent overlapping */
+        margin-top: 40px; /* Adjusted to prevent overlapping */
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .header-content h2 {
+        font-size: 6vmin; /* Adjusted to prevent overlapping */
+        margin-bottom: 10px; /* Adjusted to prevent overlapping */
+    }
 
     /* Navigation */
     .navbar {
@@ -378,19 +380,20 @@ footer {
 
     /* Contact Page */
     .form-area {
-        margin-top: 135px;
-        padding: 1em;
+        margin-top: 20px; /* Reduce the top margin to fit the form within the viewport */
+        padding: 10px; /* Adjust the padding for better spacing on small screens */
     }
 
     .details-area input,
     .details-area textarea {
-        font-size: 4vmin;
+        font-size: 4vmin; /* Adjust the font size for smaller screens */
     }
 
     .details-area button {
-        padding: 8px 30px;
-        font-size: 4vmin;
+        padding: 8px 20px; /* Adjust the button padding */
+        font-size: 4vmin; /* Adjust the button font size */
     }
+    
 
     label {
         line-height: 30px;
@@ -400,6 +403,7 @@ footer {
     .photos {
         padding: 10px;
         margin-top: 135px;
+        overflow-x: hidden; 
     }
 
     /* Footer */
